@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bodybtn{
+    @apply flex justify-center  border border-slate-500 px-5 py-2 w-3/4  md:w-1/4 rounded-full transform hover:scale-110 duration-150
+}
